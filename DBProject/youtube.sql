@@ -18,6 +18,9 @@
 --
 -- Table structure for table `genre`
 --
+DROP DATABASE IF EXISTS `youtube`;
+CREATE DATABASE `youtube`;
+USE `youtube`;
 
 DROP TABLE IF EXISTS `genre`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
