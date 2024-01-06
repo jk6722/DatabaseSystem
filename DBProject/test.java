@@ -52,7 +52,7 @@ public class test{
         try {
             String url = "jdbc:mysql://localhost:3307/youtube";
             String user = "root";
-            String password = "qmffhdn33!";
+            String password = "password";
 
             Connection connection = DriverManager.getConnection(url, user, password);
             Statement statement = connection.createStatement();
@@ -322,7 +322,7 @@ public class test{
                                     //increase view count of the video
                                     System.out.println("You are watching video now...");
                                     try {
-                                        Thread.sleep(1000); //1ì´??€ê¸?
+                                        Thread.sleep(1000); //1Ã¬Â´??Â€ÃªÂ¸?
                                     } catch (InterruptedException e) {
                                         e.printStackTrace();
                                     }
@@ -446,7 +446,7 @@ public class test{
                                         break;
                                     System.out.println("you are watching video now...");
                                     try {
-                                        Thread.sleep(1000); //1ì´??€ê¸?
+                                        Thread.sleep(1000); //1Ã¬Â´??Â€ÃªÂ¸?
                                     } catch (InterruptedException e) {
                                         e.printStackTrace();
                                     }
